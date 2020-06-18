@@ -13,6 +13,7 @@ var userName = {
 };
 console.log(getAllName(userName));
 var Student = /** @class */ (function () {
+    //在构造函数的参数上使用public等同于创建了同名的成员变量。
     function Student(firstName, middleInitial, lastName) {
         this.firstName = firstName;
         this.middleInitial = middleInitial;
